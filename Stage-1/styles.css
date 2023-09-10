@@ -1,0 +1,43 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+h1{
+    background-color: aqua;
+    border-radius: 5rem;
+    padding: 0 2rem;
+    
+}
+p{
+    background-color: aqua;
+    border-radius: 5rem;
+    padding: 0 2rem;
+}
+
+img{
+    border: 0.3rem solid aqua;
+    border-radius: 17rem;
+}
+.date-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    background-color: pink;
+    border-radius: 5rem;
+    padding: 0 2rem;
+    color: black;
+}
+a:hover{
+    color: aqua;
+}
