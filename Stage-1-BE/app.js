@@ -7,7 +7,7 @@ app.use(express.json());
 
 
 app.get('/api', (req, res) => {
-    const { slack_name, track } = req.body;
+    const { slack_name, track } = req.query;
 
     if (req.body && slack_name && track) {
         const response = {
