@@ -3,10 +3,13 @@ const express = require("express");
 const app = express();
 const PORT = 3030;
 
-app.get('/api', (req, res) => {
-    const { slack_name, track } = req.query;
+app.use(express.json());
 
-    if (req.query && slack_name && track) {
+
+app.get('/api', (req, res) => {
+    const { slack_name, track } = req.body;
+
+    if (req.body && slack_name && track) {
         const response = {
             slack_name: slack_name,
             current_day: new Date().toLocaleString('en-US', { weekday: 'long' }),
