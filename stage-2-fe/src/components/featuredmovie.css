@@ -1,0 +1,32 @@
+.feature{
+    display: flex;
+    flex-direction: column;
+    width: 81.75rem;
+    height: 37.75rem;
+    flex-shrink: 0;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.more{
+    display: flex;
+    align-items: center;
+    gap: 0rem;
+}
+.movie-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+}
+.movie-card{
+    width: 25%;
+    box-sizing: border-box;
+}

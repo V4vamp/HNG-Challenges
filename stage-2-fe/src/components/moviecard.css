@@ -1,0 +1,84 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.poster{
+   background-image: url('../images/Poster.jpg'); 
+   width: 15.625rem;
+   height: 23.125rem;
+   flex-shrink: 0;
+}
+.type{
+    padding: 0.1875rem 0.5rem;
+    border-radius: 0.75rem;
+    background: rgba(243, 244, 246, 0.50);
+    backdrop-filter: blur(1px);
+}
+.fav{
+    background-color: rgba(243, 244, 246, 0.50);
+    backdrop-filter: blur(1px);
+    width: 1.875rem;
+    height: 1.82569rem;
+    flex-shrink: 0;
+    border-radius: .9375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7.125rem;
+}
+.year{
+    color: var(--gray-400, #9CA3AF);
+    font-family: DM Sans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.movie-name{
+    color: var(--gray-900, #111827);
+    font-family: DM Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 15.625rem;
+    display: flex;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.rating{
+    display: flex;
+    width: 15.625rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.genre{
+    color: var(--gray-400, #9CA3AF);
+    font-family: DM Sans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+}
+.imdb{
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+.rotten{
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}

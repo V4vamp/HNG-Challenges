@@ -1,0 +1,102 @@
+.sidebar{
+    position: fixed;
+    width: 14.125rem;
+    height: 100vh;
+}
+.container{
+    width: 14.125rem;
+    height: 61.375rem;
+    flex-shrink: 0;
+    border-radius: 0rem 2.8125rem 2.8125rem 0rem;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #FFF;
+    padding: 1rem;
+}
+.logo-box{
+    display: inline-flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 5rem;
+}
+.logo-box img{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+.sidebar-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin-right: 1rem;
+}
+.home-box, .movie-box, .series-box, .up-box, .logout-box{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+.para{
+    color: #666;
+    font-family: Poppins;
+    font-size: 1.0rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.home-box img{
+    width: 1.5625rem;
+    height: 1.5625rem;
+}
+.play-quiz{
+    width: 10.625rem;
+    height: 14.25rem;
+    margin-bottom: 2rem;
+}
+.quiz-box{
+    width: 10.625rem;
+    height: 13.125rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    border: 1px solid rgba(190, 18, 60, 0.70);
+    background: rgba(248, 231, 235, 0.40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.ticket{
+    color: rgba(51, 51, 51, 0.80);
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 2rem;
+}
+.play{
+    color: #666;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.start{
+    color: #BE123C;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 7rem;
+    height: 1.875rem;
+    border-radius: 1.875rem;
+    background: rgba(190, 18, 60, 0.20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
