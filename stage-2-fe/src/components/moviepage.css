@@ -1,0 +1,255 @@
+.container{
+    max-width: 94.5rem;
+    height: 61.4rem;
+    display: flex;
+    flex-direction: column;
+}
+.trailer-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 74.875rem;
+    height: 28.0625rem;
+    border-radius: 1.25rem;
+    background-image: url("../images/movie.jpg");
+    margin-bottom: 2rem;
+}
+.watch-trailer{
+    width: 10.5rem;
+    height: 9.8125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.watch-trailer p{
+    color: #E8E8E8;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 55%;
+    background-color: rgba(255, 255, 255, 0.35);
+    cursor: pointer;
+}
+.play:hover{
+    background-color: rgba(79, 73, 73, 0.35);;
+}
+.detail-card{
+    display: flex;
+    
+}
+.movie-details{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 48.375rem;
+    height: 9.375rem;
+    flex-shrink: 0;
+    margin-right: 1.62rem;
+}
+.movie-title{
+    display: flex;
+    gap: 1.5rem;
+}
+.movie-title p{
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.movie-genre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.movie-genre p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.25rem;
+    height: 1.875rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+    border: 1px solid #F8E7EB;
+    color: #B91C1C;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.synopsis{
+    color: #333;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.movie-rating{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 22.5rem;
+    height: 11.5rem;
+    flex-shrink: 0;
+}
+.activity-icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    width: 9rem;
+    height: 2.375rem;
+    flex-shrink: 0;
+}
+.activity-icons img,
+.rating img,
+.rating p {
+    margin: 0;
+    padding: 0;
+}
+.rating img{
+    margin-right: 0.5rem;
+
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5rem;
+    height: 3.4375rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    gap: 1rem;
+    border: 1px solid #BE123C;
+    cursor: pointer;
+}
+.showtimes{
+    margin-bottom: 1rem;
+    background-color: #BE123C;
+    color: #FFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.20);
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.watch-options{
+    background: rgba(190, 18, 60, 0.10);
+    color: #333;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.movie-casting{
+    width: 49.06638rem;
+    height: 11.4375rem;
+    flex-shrink: 0;
+}
+.icons{
+    gap: 1rem;
+    margin-right: 2rem;
+}
+svg{
+    width: 2.1875rem;
+    height: 2.1875rem;
+}
+svg:hover{
+    fill: #333;
+}
+.movie-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.credits{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.credits p{
+    color: #333;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.credits span{
+    color: #BE123C;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.top-awards{
+    display: flex;
+    align-items: center;
+    max-width: 49.0625rem;
+    height: 3.4375rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 1px solid #C7C7C7;
+    background: rgba(255, 255, 255, 0.80);
+}
+.top-rated{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15.8125rem;
+    height: 3.4375rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #BE123C;
+}
+.top-rated p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.nominations{
+    color: #333;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.2rem;
+}
+.top-awards img{
+    margin-left: 13.75rem;
+    padding: 1rem;
+}
+

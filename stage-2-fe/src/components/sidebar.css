@@ -1,9 +1,4 @@
 .sidebar{
-    position: fixed;
-    width: 14.125rem;
-    height: 100vh;
-}
-.container{
     width: 14.125rem;
     height: 61.375rem;
     flex-shrink: 0;

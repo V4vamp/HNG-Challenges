@@ -7,12 +7,11 @@ import upLogo from "../images/calendar.png";
 import logoutLogo from "../images/logout.png";
 import "./sidebar.css"
 
-const SideBar = () => {
+export const SideBar = () => {
   return (
     <>
     
     <div className="sidebar">
-        <div className="container">
             <div className="logo-box">
                 <div className="logo-img">
                     <img src={tvLogo} alt="tv logo" />
@@ -55,12 +54,8 @@ const SideBar = () => {
                     <p className='para'>Log out</p>
                 </div>
             </div>
-            
-        </div>
     </div>
 
     </>
   )
-}
-
-export default SideBar
+};

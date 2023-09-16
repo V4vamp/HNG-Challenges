@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import SideBar from './components/sideBar';
+//import SideBar from './components/sideBar';
+import { MoviePage } from './components/moviePage';
 //import Footer from './components/footer';
 //import TopBar from './components/topBar';
 //import MovieCard from './components/movieCard';
@@ -9,7 +10,7 @@ import SideBar from './components/sideBar';
 function App() {
   return (
     <div className="App">
-      <SideBar />
+      <MoviePage />
     </div>
   );
 }
